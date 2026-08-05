@@ -1,4 +1,7 @@
-﻿// File: contracts/zeppelin/Proxy.sol
+// File: contracts/zeppelin/Proxy.sol
+
+// EVM: default
+// Optimization: 200
 
 pragma solidity ^0.4.24;
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import { AccessControlDefaultAdminRulesUpgradeable } from "../@openzeppelin/contracts-upgradeable/access/AccessControlDefaultAdminRulesUpgradeable.sol";
-import { UUPSUpgradeable } from "../@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
-import { IAccessControl } from "../@openzeppelin/contracts/access/IAccessControl.sol";
-import { EnumerableSet } from "../@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
-import { DoubleEndedQueue } from "../@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol";
+import { AccessControlDefaultAdminRulesUpgradeable } from "../openzeppelin/contracts-upgradeable/access/AccessControlDefaultAdminRulesUpgradeable.sol";
+import { UUPSUpgradeable } from "../openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import { IAccessControl } from "../openzeppelin/contracts/access/IAccessControl.sol";
+import { EnumerableSet } from "../openzeppelin/contracts/utils/structs/EnumerableSet.sol";
+import { DoubleEndedQueue } from "../openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol";
 import { PaxosBaseAbstract } from "./lib/PaxosBaseAbstract.sol";
 import { RateLimit } from "./lib/RateLimit.sol";
 

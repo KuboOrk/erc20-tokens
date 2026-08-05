@@ -6,7 +6,7 @@ import { SupplyControl } from "./SupplyControl.sol";
 import { EIP2612 } from "./lib/EIP2612.sol";
 import { EIP3009 } from "./lib/EIP3009.sol";
 import { EIP712 } from "./lib/EIP712.sol";
-import { AccessControlDefaultAdminRulesUpgradeable } from "../@openzeppelin/contracts-upgradeable/access/AccessControlDefaultAdminRulesUpgradeable.sol";
+import { AccessControlDefaultAdminRulesUpgradeable } from "../openzeppelin/contracts-upgradeable/access/AccessControlDefaultAdminRulesUpgradeable.sol";
 
 /**
  * @title PaxosTokenV2

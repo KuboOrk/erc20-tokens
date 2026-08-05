@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import { DoubleEndedQueue } from "../../@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol";
-import { Math } from "../../@openzeppelin/contracts/utils/math/Math.sol";
-import { SafeMath } from "../../@openzeppelin/contracts/utils/math/SafeMath.sol";
+import { DoubleEndedQueue } from "../../openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol";
+import { Math } from "../../openzeppelin/contracts/utils/math/Math.sol";
+import { SafeMath } from "../../openzeppelin/contracts/utils/math/SafeMath.sol";
 import "hardhat/console.sol";
 
 /**
