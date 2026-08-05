@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 import { PaxosBaseAbstract } from "./PaxosBaseAbstract.sol";
 import { EIP712Domain } from "./EIP712Domain.sol";
 import { EIP2612Definitions } from "./EIP2612Definitions.sol";
-import { SignatureChecker } from "PYUSD/@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol";
+import { SignatureChecker } from "../../@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol";
 
 /**
  * @title EIP2612 contract
