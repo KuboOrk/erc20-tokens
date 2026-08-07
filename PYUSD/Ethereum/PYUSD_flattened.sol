@@ -1,6 +1,7 @@
 // File: PYUSD/openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol
 
-// EVM: paris
+// Contracts: PYUSD, SupplyControl (minter admin)
+// EVM: 0.8.28 (paris)
 // Optimization: 200
 
 // OpenZeppelin Contracts v4.4.1 (access/IAccessControl.sol)
