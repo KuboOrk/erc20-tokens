@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.20;
 
-import {IERC20Permit} from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol";
+import {IERC20Permit} from "../../../../contracts/token/ERC20/extensions/IERC20Permit.sol";
 import {ERC20Upgradeable} from "../ERC20Upgradeable.sol";
-import {ECDSA} from "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
+import {ECDSA} from "../../../../contracts/utils/cryptography/ECDSA.sol";
 import {EIP712Upgradeable} from "../../../utils/cryptography/EIP712Upgradeable.sol";
 import {NoncesUpgradeable} from "../../../utils/NoncesUpgradeable.sol";
 import {Initializable} from "../../../proxy/utils/Initializable.sol";

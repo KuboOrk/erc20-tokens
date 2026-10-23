@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.20;
 
-import {MessageHashUtils} from "@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol";
-import {IERC5267} from "@openzeppelin/contracts/interfaces/IERC5267.sol";
+import {MessageHashUtils} from "../../../contracts/utils/cryptography/MessageHashUtils.sol";
+import {IERC5267} from "../../../contracts/interfaces/IERC5267.sol";
 import {Initializable} from "../../proxy/utils/Initializable.sol";
 
 /**
